@@ -2,7 +2,7 @@
 """
 Created on Mon Nov 18 15:30:52 2024
 
-@author: campb
+@author: allomatik
 """
 
 from transformers import pipeline

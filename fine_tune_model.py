@@ -2,7 +2,7 @@
 """
 Created on Mon Nov 18 14:12:06 2024
 
-@author: campb
+@author: allomatik
 """
 
 # imports

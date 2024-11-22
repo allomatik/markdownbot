@@ -5,7 +5,7 @@ import markdown
 from nltk.tokenize import sent_tokenize
 
 # configuration
-input_folder = r"C:\Users\campb\Jarvis\rawData"
+input_folder = r"C:\Users\campb\Jarvis\rawData" #Edit to point to your markdown folder/database
 output_file = "preprocessed_data.txt"
 chunk_size = 300  # target chunk size in words
 special_tokens = {"start": "<|startoftext|>", "end": "<|endoftext|>"}
