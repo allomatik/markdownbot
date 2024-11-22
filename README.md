@@ -10,5 +10,7 @@ Suggested Workflow:
  - edit lines 15 and 25 in the "fine_tune_model.py" file to point at your chosen pretrained huggingface model (suggest test running code with a small model like gpt2 at first to avoid long wait times) and run the training script.
  - once training is complete, point the "run_chatbot.py" file at the finetuned model by editing line 11 and run the script to start a conversation (suggest running in an IDE, the while loop has no end condition, will have to manually stop/exit to end each conversation)
 
-Note: all of the code here was generated using ChatGPT 4o and little has been done to optmize any further. suggest experimenting with different training and preprocessing conditions, this is a rudimentary start at best :)  
+Notes: 
+ - all of the code here was generated using ChatGPT 4o and little has been done to optmize any further. suggest experimenting with different training and preprocessing conditions.
+ - deepfates has a preprocessing script for twitter archives as well here (https://gist.github.com/deepfates/78c9515ec2c2f263d6a65a19dd10162d), bit more sophisticated.
 
